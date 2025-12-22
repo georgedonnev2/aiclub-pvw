@@ -1,6 +1,10 @@
 # 基本配置
-baseurl: "/docs"
 title: "A&K AII"
+description: "昇腾鲲鹏AI创新俱乐部"
+baseurl: "/aiclub"
+
+# 使用 GitHub Pages 兼容的主题配置
+theme: jekyll-theme-primer
 
 # URL 设置
 # url: "https://example.com"  # 请替换为您的实际域名

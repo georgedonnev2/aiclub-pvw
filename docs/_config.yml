@@ -2,6 +2,8 @@
 title: "A&K AII"
 description: "昇腾鲲鹏AI创新俱乐部"
 baseurl: "/aiclub"
+url: "https://georgedonnev2.github.io"
+repository: "georgedonnev2/aiclub"
 
 # 使用 GitHub Pages 兼容的主题配置
 theme: jekyll-theme-primer

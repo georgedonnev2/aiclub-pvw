@@ -1,0 +1,65 @@
+# 基本配置
+baseurl: "/docs"
+title: "A&K AII"
+
+# URL 设置
+# url: "https://example.com"  # 请替换为您的实际域名
+
+# 构建设置
+# source: .
+# destination: ./_site
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 主题设置（可选，如果用主题的话）
+# theme: minima  # 或替换为您使用的主题
+
+# 其他推荐配置
+markdown: kramdown
+highlighter: rouge
+
+# 默认设置
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# SEO 优化设置
+sitemap:
+  sitemap_extension: "xml"
+  
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+
+# 包含文件（可选）
+# include:
+#   - "_pages"
+#   - ".well-known"
+
+# 构建选项（可选）
+# future: true  # 显示未来的帖子
+# unpublished: false  # 不显示未发布的帖子
+
+# 页面生成设置
+# paginate: 5  # 每页显示5篇文章
+# paginate_path: "/blog/page:num/"  # 分页路径
+
+# 时间设置
+timezone: Asia/Shanghai  # 时区设置
+
+# 社交链接（可选）
+# twitter_username: your-twitter
+# github_username: your-github

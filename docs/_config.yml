@@ -1,7 +1,7 @@
 # 基本配置
 title: "A&K AII"
 description: "昇腾鲲鹏AI创新俱乐部"
-baseurl: "/aiclub"
+# baseurl: "/aiclub"
 url: "https://georgedonnev2.github.io"
 # baseurl: "/aiclub/docs"
 # repository: "georgedonnev2/aiclub"

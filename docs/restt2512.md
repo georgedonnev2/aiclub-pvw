@@ -2,7 +2,7 @@
 
 以终为始给出学习主题和内容的建议，供感兴趣同学参考。掌握程度视个人情况而定，后续可持续加强。参考给出的建议，至少要达到了解的程度。
 
-最终目标：做出一款作品，在华为ICT大赛、昇腾大赛、鲲鹏大赛中，获得尽可能优异的奖项。根据该目标，需要对以下主题和内容有所了解：
+最终目标：做出一款作品，在华为ICT大赛、昇腾大赛、鲲鹏大赛中，获得尽可能优异的奖项。根据该目标，至少需要对以下主题和内容有所了解：
 
 - 了解华为开发板。作品通常会基于华为开发板实现。
 - 了解 Linux 操作系统。华为开发板安装了 Linux 操作系统，因此也需要了解。
@@ -33,13 +33,9 @@
 <!--  -->
 ## Linux 简介
 
-Linux 内核最初只是由芬兰人林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写的。
+Linux 内核最初只是由芬兰人林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写的。Linux 英文解释为 Linux is not Unix。
 
-Linux 是一套免费使用和自由传播的类 Unix 操作系统，是一个基于 POSIX 和 UNIX 的多用户、多任务、支持多线程和多 CPU 的操作系统。
-
-Linux 能运行主要的 UNIX 工具软件、应用程序和网络协议。它支持 32 位和 64 位硬件。Linux 继承了 Unix 以网络为核心的设计思想，是一个性能稳定的多用户网络操作系统。
-
-Linux 英文解释为 Linux is not Unix。
+Linux 是一套免费使用和自由传播的类 Unix 操作系统，是一个基于 POSIX 和 UNIX 的多用户、多任务、支持多线程和多 CPU 的操作系统。Linux 能运行主要的 UNIX 工具软件、应用程序和网络协议。它支持 32 位和 64 位硬件。Linux 继承了 Unix 以网络为核心的设计思想，是一个性能稳定的多用户网络操作系统。
 
 可以有多种方式获得一个 Linux 环境用于熟悉相关操作。比如：
 - WSL（Windows Subsystem for Linux，适用于 Linux 的 Windows 子系统）
@@ -52,12 +48,12 @@ Linux 英文解释为 Linux is not Unix。
 以 WSL 安装 Linux 为例。以下步骤在 `Windows 11 专业版 24H2` 验证通过。
 
 在 Windows 系统启动 PowerShell 终端，执行
-```powershell
+```bash
 wsl --install
 ```
 
 屏幕会显示如下类似输出：
-```PowerShell
+```bash
 正在下载: 适用于 Linux 的 Windows 子系统 2.6.3
 正在安装: 适用于 Linux 的 Windows 子系统 2.6.3
 已安装 适用于 Linux 的 Windows 子系统 2.6.3。
@@ -76,12 +72,12 @@ wsl --install
 ```
 
 然后重新启动 Windows 系统。再启 PowerShell 终端，执行：
-```powershell
+```bash
 wsl --list --online
 ```
 
 屏幕会显示如下类似输出：
-```powershell
+```bash
 以下是可安装的有效分发的列表。
 使用“wsl.exe --install <Distro>”安装。
 
@@ -111,7 +107,7 @@ SUSE-Linux-Enterprise-15-SP6    SUSE Linux Enterprise 15 SP6
 ```
 
 Linux 有很多发行版，选择相对常见的 Ubuntu 安装。版本选择 `Ubuntu-22.04` 或者 `Ubuntu-24.04`，都是 LTS（长期支持） 。以 `Ubuntu-22.04` 为例，在 PowerShell 终端中执行：
-```powershell
+```bash
 wsl --install -d Ubuntu-22.04
 ```
 
@@ -175,11 +171,13 @@ pwd
 ```
 
 - 执行 `mkdir ailab`，在当前目录下创建子目录 `ailab`
+
 ```bash
 mkdir ailab
 ```
 
 - 执行 `cd ailab` 进入子目录，再执行 `pwd` 确认当前目录
+
 ```bash
 cd ailab
 pwd
@@ -187,6 +185,7 @@ pwd
 ```
 
 - 执行 `vim hello_time.py` 编辑文件
+
 ```bash
 vim hello_time.py
 ```
@@ -225,6 +224,7 @@ if __name__ == "__main__":
 - 粘贴完成后，按 `esc` 键，然后输入 `:wq`（会同步显示在界面左下角），再按 `回车` 键，可退出 `vim` 界面。
 
 - 执行 `ls -l`，确保已创建文件 `hello_time.py`。
+
 ```bash
 ls -l
 total 4
@@ -232,6 +232,7 @@ total 4
 ```
 
 - 执行 `python3 hello_time.py` 运行 Python 程序。
+
 ```bash
 python3 hello_time.py
 ========================================
@@ -271,13 +272,11 @@ Hello World!
   - 希望能在俱乐部中，获得什么形式的、哪些方面的 **训练和提升**？
 
 <!-- [第十届华为ICT大赛创新赛学习空间](https://talent.shixizhi.huawei.com/center/privateCenter.htm?schoolId=1365189427395223554&type=studyCenter_LearningTask&sxz-lang=zh_CN&mapDetail=3&mapDetailId=1838879415425572866&freedomMapClickItemId=1838879415429767175) -->
-<br>
 
 - **昇腾AI创新大赛**
   - 说说 **昇腾AI创新大赛** 的简要情况。
   - 做什么样的作品去参赛，有可能获得奖项？
 
-<br>
 
 - **鲲鹏创新大赛**
   - 说说 **鲲鹏创新大赛** 的简要情况。
